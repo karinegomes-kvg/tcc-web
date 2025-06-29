@@ -88,4 +88,5 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
     * Visualizar a lista de tarefas cadastradas.
     * Clicar no botão "Remover" ao lado de uma tarefa para excluí-la.
 
+obs.: Este projeto foi realizado utilizando o auxilio do ChatGPT e Google Gemini.
 ---
