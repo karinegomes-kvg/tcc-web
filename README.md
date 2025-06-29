@@ -40,7 +40,7 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 ### 2. Configuração e Execução do Backend
 
 Abra seu terminal e navegue até a pasta `backend/`:
-    ``` bash
+   
     
     cd backend
     
@@ -49,18 +49,18 @@ Abra seu terminal e navegue até a pasta `backend/`:
     npx prisma migrate dev --name init_tasks_table
     
     npm run start:dev
-    ```
+    
 ### 3. Configuração e Execução do Frontend
 
 Abra um **novo terminal** e navegue até a pasta `frontend/` (a partir da raiz do seu projeto `TCC-WEB`):
-    ```bash
+    
     
     cd frontend
     
     npm install
     
     npm run dev
-    ```
+    
 
 ### 4. Usando a Aplicação
 1.  Com ambos os servidores (backend e frontend) rodando, abra seu navegador web.
