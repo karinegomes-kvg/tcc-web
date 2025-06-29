@@ -1,0 +1,139 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* frontend/src/App.css */
+
+/* Estilo para todos os inputs de texto */
+input[type="text"] {
+  background-color: #867f79; 
+  color: #000000; 
+  border: 1px solid #777; 
+  padding: 10px; 
+  border-radius: 4px; 
+}
+
+/* Opcional: Estilo quando o input está em foco */
+input[type="text"]:focus {
+  outline: none; 
+  border-color: #000000; 
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.25); 
+}
+
+/* Opcional: Placeholder (o texto "Nome da nova tarefa") */
+input[type="text"]::placeholder {
+  color: #bbb; /* Cor do texto do placeholder */
+}
+
+/* frontend/src/App.css */
+
+/* Estilo para cada item da lista de tarefas */
+.App ul li {
+  margin-bottom: 10px; /* Adiciona 10 pixels de espaço abaixo de cada item */
+  /* Você pode ajustar o valor (ex: 5px, 15px, 20px) conforme desejar */
+}
+
+/* Opcional: Remover a margem do último item para evitar espaço extra desnecessário no final da lista */
+.App ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* frontend/src/App.css */
+
+/* --- Estilos para o Input (Caixa de Escrita) --- */
+input[type="text"] {
+  background-color: #555;
+  color: #fff;
+  border: 1px solid #777;
+  padding: 10px;
+  border-radius: 4px; /* Manter pequeno arredondamento como a caixa original */
+  /* Ajuste para que o input e o botão fiquem na mesma linha, se não estiverem */
+  display: inline-block; /* Garante que ele se comporte como um bloco mas na linha */
+  vertical-align: middle; /* Alinha verticalmente com o botão */
+}
+
+input[type="text"]::placeholder {
+  color: #c0bebe;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* --- Estilos para os Botões --- */
+button {
+  background-color: #3c1e1e; 
+  color: #c0bebe; 
+  border: none; 
+  padding: 10px 15px; 
+  border-radius: 4px; 
+  cursor: pointer;
+  font-size: 0.9em; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  margin-left: 15px; 
+  vertical-align: middle;
+}
+
+/* Estilo para o botão de Remover (dentro dos itens da lista) */
+.App ul li button {
+    background-color: #3c1e1e; /* Vermelho suave para remover */
+    /* Pode ajustar o padding e font-size aqui para esses botões Remover */
+    padding: 8px 12px; /* Um pouco menor */
+    font-size: 0.8em; /* Fonte menor */
+    border-radius: 4px; /* Quadrado */
+    margin-left: 10px; /* Espaço à esquerda do texto da tarefa */
+}
+
+
+/* Efeito ao passar o mouse (hover) para TODOS os botões */
+button:hover {
+  background-color: #867f79; /* Cor de fundo um pouco mais escura ao passar o mouse */
+  color: #000000; /* Cor do texto ao passar o mouse (dourado) */
+}
+
+/* Efeito ao passar o mouse para o botão de remover (se quiser uma cor diferente) */
+.App ul li button:hover {
+    background-color: #867f79; /* Vermelho mais escuro ao passar o mouse */
+    color: #000000; /* Opcional: manter o texto branco ou outra cor */
+}

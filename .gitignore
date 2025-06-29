@@ -1,0 +1,13 @@
+# Ignorar a pasta de módulos Node.js em ambos os projetos
+backend/node_modules/
+frontend/node_modules/
+
+# Ignorar arquivos de ambiente que contêm informações sensíveis (como credenciais do banco de dados)
+backend/.env
+frontend/.env
+.env # Se tiver um .env na raiz
+
+# Ignorar pastas de build/compilação
+backend/dist/
+frontend/dist/
+frontend/build/ # Se o Vite usasse 'build' em vez de 'dist'
