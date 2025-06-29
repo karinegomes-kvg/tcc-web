@@ -36,7 +36,7 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 2. atualize o arquivo .env com a sua senha e usuário.
     ```
     DATABASE_URL="postgresql://USUARIO:SENHA@localhost:5432/tarefas?schema=public"
-    ``
+    ```
 ### 2. Configuração e Execução do Backend
 
 Abra seu terminal e navegue até a pasta `backend/`:
