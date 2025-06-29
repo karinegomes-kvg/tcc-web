@@ -40,7 +40,8 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 ### 2. Configuração e Execução do Backend
 
 Abra seu terminal e navegue até a pasta `backend/`:
-    ```
+    ``` bash
+    
     cd backend
     
     npm install
@@ -53,8 +54,11 @@ Abra seu terminal e navegue até a pasta `backend/`:
 
 Abra um **novo terminal** e navegue até a pasta `frontend/` (a partir da raiz do seu projeto `TCC-WEB`):
     ```bash
+    
     cd frontend
+    
     npm install
+    
     npm run dev
     ```
 
