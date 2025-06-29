@@ -40,10 +40,13 @@ Certifique-se de ter o seguinte software instalado em sua máquina:
 ### 2. Configuração e Execução do Backend
 
 Abra seu terminal e navegue até a pasta `backend/`:
-    ```bash
+    ```
     cd backend
+    
     npm install
+    
     npx prisma migrate dev --name init_tasks_table
+    
     npm run start:dev
     ```
 ### 3. Configuração e Execução do Frontend
