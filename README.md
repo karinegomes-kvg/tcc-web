@@ -1,4 +1,4 @@
-# TCC-WEB: Aplicação Fullstack de Gerenciamento de Tarefas
+# TCC-WEB: Preocesso Seletivo.
 
 Este é um projeto simples para gerenciar tarefas, desenvolvido como parte de um desafio prático de um Processo Seletivo da UFJF. 
 
