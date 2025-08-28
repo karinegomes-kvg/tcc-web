@@ -71,4 +71,5 @@ Abra um **novo terminal** e navegue até a pasta `frontend/` (a partir da raiz d
     * Clicar no botão "Remover" ao lado de uma tarefa para excluí-la.
 
 obs.: Este projeto foi realizado utilizando o auxilio do ChatGPT e Google Gemini.
+
 ---
